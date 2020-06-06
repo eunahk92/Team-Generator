@@ -1,7 +1,7 @@
 # Team-Generator
 
 ## Description
-A template generator command line application to build a software engineering team.
+This application is a template generator command line application to build a software engineering team that passes all unit tests. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster.
 
 ## User Story
 ```
