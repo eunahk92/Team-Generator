@@ -78,4 +78,15 @@ function checkDirectory(directory) {
     }
 }
 
+async function renderHTML() {
+    try { 
+        const newHTML = await render(teamArr);
+        await checkDirectory("./output");
+        await asyncWriteFile(outputPath, newHTML);
+    }
+    catch(err) {
+        console.log(err);
+    }
+}
+
 init();
