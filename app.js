@@ -70,4 +70,12 @@ async function nextMember() {
     }
 }
 
+function checkDirectory(directory) {  
+    try {
+        fs.statSync(directory);
+    } catch(e) {
+        fs.mkdirSync(directory);
+    }
+}
+
 init();
