@@ -5,4 +5,4 @@ node_modules
 .env
 
 # Ignore DS_Store file
-.DS_Store/
+.DS_Store
